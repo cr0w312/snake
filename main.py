@@ -2,6 +2,7 @@ import pygame as pg;
 
 y, step, head = segments = [15, 16, 17]
 n, apple = step, 99
+print('командная работа........')
 screen_fill = pg.display.set_mode([255] *2, pg.SCALED).fill
 
 while segments.count(head) % 2 * head % n * (head & 240):
